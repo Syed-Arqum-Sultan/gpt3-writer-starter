@@ -10,7 +10,10 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background: #304352; /* fallback for old browsers  */
+    background: -webkit-linear-gradient(to left, #615e5c, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #615e5c, #1a2630); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -172,7 +175,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(18, 227, 255);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -401,7 +404,7 @@ textarea {
     border-top: 2px solid #FFF;
     border-right: 2px solid transparent;
     box-sizing: border-box;
-    animation: rotation 1s linear infinite;
+     animation: rotation 1s linear infinite; 
 }
 
 @keyframes rotation {
