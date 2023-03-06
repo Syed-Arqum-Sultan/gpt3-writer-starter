@@ -23,7 +23,7 @@ const Home = () => {
 
 
    
-     const response = await fetch('/api/gen',
+     const response = await fetch('/api/generate',
    {
       method: 'POST',
       headers: {
