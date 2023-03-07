@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
+
 import { useState } from 'react';
 
 
